@@ -3,13 +3,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Poppins:wght@200&display=swap');
 
 
-body {background-color: rgb(127, 182, 230);
+body {background-color: rgb(198, 224, 247);
     font-size: 18px;
     font-family: 'Poppins', sans-serif;}
 h1 {font-size: 40px;
     font-family: 'Montserrat', sans-serif;;}
 
-p{color:rgb(240, 255, 244)}
+p{color:rgb(13, 14, 13)}
 
 
 /* EXTERNAL-NAV */
@@ -35,3 +35,24 @@ a{color: black;
 text-decoration: none;
 text-decoration-color: white
 ;}
+
+a:hover {
+color:grey;
+text-decoration: underline;
+text-underline-offset: 1rem;
+text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+cursor: default;
+}
+
+/* SECTIONS */
+.section__text {
+  align-self: center;
+  text-align: center;
+}
