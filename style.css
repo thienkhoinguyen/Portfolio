@@ -107,7 +107,30 @@ height: 54vh;
   flex:50%;
   padding:5px;
 }
-
 .row {
   display: flex;
+}
+
+/* Class Schedule */
+
+#class {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#class td, #class th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#class tr:nth-child(even){background-color: aquamarine;}
+
+#class tr:hover {background-color: rgb(227, 255, 246);}
+
+#class  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
