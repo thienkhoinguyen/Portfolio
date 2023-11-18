@@ -69,6 +69,8 @@ nav,
   align-self: center;
   text-align: center;
   font-size: 1.75rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* BIOGRAPHY */
@@ -76,15 +78,15 @@ nav,
 #Biography {
 display: flex;
 justify-content: center;
-gap: 5rem;
-height: 80vh;
+gap: 4rem;
+height: 54vh;
 }
 
 .section__pic-container {
   display:flex;
   height:400px;
   width: 400px;
-  margin: auto 2
+  margin-bottom: 10px;
 }
 
 .section__text {
@@ -92,7 +94,20 @@ height: 80vh;
   text-align: center;
 }
 
-.section__text2 {
+.section__text__P2 {
   align-self: right;
   font-weight: 500;
+}
+
+
+/* WORK */
+
+/* IMAGES */
+.column{
+  flex:50%;
+  padding:5px;
+}
+
+.row {
+  display: flex;
 }
