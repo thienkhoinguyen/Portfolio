@@ -123,14 +123,15 @@ height: 54vh;
   padding: 8px;
 }
 
-#class tr:nth-child(even){background-color: aquamarine;}
+#class tr:nth-child(even){background-color: rgb(255, 255, 255);}
+#class tr:nth-child(odd){background-color: rgb(193, 193, 228);}
 
-#class tr:hover {background-color: rgb(227, 255, 246);}
+#class tr:hover {background-color: rgb(97, 196, 183);}
 
 #class  th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
-  color: white;
+  background-color: #2987d4;
+  color: rgb(255, 255, 255);
 }
