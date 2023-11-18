@@ -51,8 +51,48 @@ text-decoration-color: rgb(181, 181, 181);
 cursor: default;
 }
 
+
+/* NAVIGATION */
+nav, 
+.navi  {
+  display: flex;
+}
+
+.navi {
+  gap: 3rem;
+  list-style: circle;
+  font-size: 1.5rem;
+}
+
 /* SECTIONS */
 .section__text {
   align-self: center;
   text-align: center;
+  font-size: 1.75rem;
+}
+
+/* BIOGRAPHY */
+
+#Biography {
+display: flex;
+justify-content: center;
+gap: 5rem;
+height: 80vh;
+}
+
+.section__pic-container {
+  display:flex;
+  height:400px;
+  width: 400px;
+  margin: auto 2
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text2 {
+  align-self: right;
+  font-weight: 500;
 }
