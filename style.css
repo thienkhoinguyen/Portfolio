@@ -38,14 +38,14 @@ nav {
 
 a{color: black;
 text-decoration: none;
-text-decoration-color: white
+text-decoration-color: rgb(0, 26, 51)
 ;}
 
 a:hover {
-color:grey;
+color:rgb(0, 26, 51);
 text-decoration: underline;
 text-underline-offset: 1rem;
-text-decoration-color: rgb(181, 181, 181);
+text-decoration-color: rgb(0, 51, 102);
 }
 
 .logo {
@@ -78,9 +78,9 @@ nav,
   margin-bottom: 40px;
 }
 
-/* BIOGRAPHY */
+/* ABOUT */
 
-#Biography {
+#about {
 display: flex;
 justify-content: center;
 gap: 4rem;
@@ -122,7 +122,7 @@ div.container {
   padding: 10px 20px;
 }
 
-/* Class Schedule */
+/* INSPIRATION */
 
 #inspirations {
   border-collapse: collapse;
@@ -145,4 +145,19 @@ div.container {
   text-align: left;
   background-color: #2987d4;
   color: rgb(255, 255, 255);
+}
+
+#inspo {
+  margin-bottom: 64px;
+}
+
+/* FOOTER */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #ddd;
+  color: black;
+  text-align: center;
 }
