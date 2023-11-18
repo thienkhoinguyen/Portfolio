@@ -111,24 +111,29 @@ height: 54vh;
   display: flex;
 }
 
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 /* Class Schedule */
 
-#class {
+#inspirations {
   border-collapse: collapse;
   width: 100%;
 }
 
-#class td, #class th {
+#inspirations td, #inspirations th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#class tr:nth-child(even){background-color: rgb(255, 255, 255);}
-#class tr:nth-child(odd){background-color: rgb(193, 193, 228);}
+#inspirations tr:nth-child(even){background-color: rgb(255, 255, 255);}
+#inspirations tr:nth-child(odd){background-color: rgb(193, 193, 228);}
 
-#class tr:hover {background-color: rgb(97, 196, 183);}
+#inspirations tr:hover {background-color: rgb(97, 196, 183);}
 
-#class  th {
+#inspirations  th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
