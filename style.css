@@ -106,6 +106,13 @@ height: 54vh;
 
 
 /* WORK */
+#work {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.logo {
+  padding: 20px;
+}
 
 /* IMAGES */
 .column{
