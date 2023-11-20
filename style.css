@@ -4,13 +4,18 @@
   @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 
-body {background-color: rgb(198, 224, 247);
+body {
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(198,224,247,1));
     font-size: 18px;
     font-family: 'Poppins', sans-serif;}
 h1 {font-size: 40px;
     font-family: 'Montserrat', sans-serif;;}
 
 h3{font-size: 18px;
+  font-family: 'Lexend', sans-serif;
+}
+
+h5{font-size: 16px;
   font-family: 'Lexend', sans-serif;
 }
 
@@ -121,7 +126,6 @@ height: 54vh;
 }
 .row {
   display: flex;
-  
 }
 
 div.container {
@@ -164,7 +168,7 @@ div.container {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background-color: #ddd;
-  color: black;
+  background-color: #1D1D1D;
+  color: white;
   text-align: center;
 }
