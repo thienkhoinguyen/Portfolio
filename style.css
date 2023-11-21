@@ -21,7 +21,6 @@ h5{font-size: 16px;
 
 p{color:rgb(13, 14, 13)}
 
-
 /* EXTERNAL-NAV */
 
 nav, 
@@ -88,14 +87,15 @@ nav,
 #about {
 display: flex;
 justify-content: center;
+text-align: left;
 gap: 4rem;
-height: 54vh;
+min-height: 20vh;
+padding-bottom: 62px;
 }
 
-.section__pic-container {
-  display:flex;
-  height:400px;
-  width: 400px;
+.section__logo {
+  flex: 100%;
+  min-width: 35%;
   margin-bottom: 10px;
 }
 
@@ -105,14 +105,13 @@ height: 54vh;
 }
 
 .section__text__P2 {
-  align-self: right;
-  font-weight: 500;
+  text-decoration-style: wavy;
 }
 
 
 /* WORK */
 #work {
-  margin-top: 64px;
+  margin-top: 80px;
   margin-bottom: 64px;
 }
 .logo {
