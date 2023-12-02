@@ -175,11 +175,21 @@ div.container {
 }
 
 /* BUTTON */
-#btn-alert{
-  padding: 200px, 32px;
-  background: linear-gradient(90deg, #2987d4, #ddd)
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-  }
-  
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#btn-alert {
+  font-size: 24px;
+  font-weight: 200;
+  text-decoration: none;
+  position: relative;
+  border: 0px solid #1D1D1D;
+  color: #fff;
+  background: linear-gradient(90deg, #2987d4, #b729d4);
+  padding: 14px 40px;
+  border-radius: 42px;
+}
