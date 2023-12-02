@@ -28,7 +28,20 @@ btnHover.addEventListener('mouseleave', handleMouseLeave);
 
 // Number Count //
 let count = 1;
+const txtCounter = document.getElementById('txt-counter');
+
 document.getElementById('btn-counter').onclick = () => {
     count = count + 1;
-    document.getElementById('txt-counter').innerHTML = `Number: ${count}`;
+
+    if (count % 2 === 0) {
+        txtCounter.innerHTML = `Number: ${count}`;
+        txtCounter.style.color = `gold`;
+        txtCounter.classList.remove('odd');
+        txtCounter.classList.add('even');
+    } else {
+        txtCounter.innerHTML = `Number: ${count}`;
+        txtCounter.style.color = `white`;
+        txtCounter.classList.remove('even');
+        txtCounter.classList.add('odd');
+    }
 };

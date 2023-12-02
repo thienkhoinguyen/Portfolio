@@ -221,11 +221,18 @@ div.container {
   text-decoration: none;
   position: relative;
   border: 0px solid #1D1D1D;
-  color: #fff;
-  background:#1D1D1D;
+  background: #1D1D1D;
   padding: 14px 40px;
   border-radius: 42px;
   cursor: pointer;
   transition: background 0.3s;
   padding: 10px 20px;
+}
+
+.even {
+  color: gold;
+}
+
+.odd {
+  color: white;
 }
