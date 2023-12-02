@@ -24,3 +24,11 @@ const handleMouseLeave = () => {
 
 btnHover.addEventListener('mouseover', handleMouseOver);
 btnHover.addEventListener('mouseleave', handleMouseLeave);
+
+
+// Number Count //
+let count = 1;
+document.getElementById('btn-counter').onclick = () => {
+    count = count + 1;
+    document.getElementById('txt-counter').innerHTML = `Number: ${count}`;
+};
