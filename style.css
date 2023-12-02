@@ -192,4 +192,10 @@ div.container {
   background: linear-gradient(90deg, #2987d4, #b729d4);
   padding: 14px 40px;
   border-radius: 42px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#btn-alert:hover {
+  background: #1D1D1D;
 }
