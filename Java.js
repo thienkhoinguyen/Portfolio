@@ -3,6 +3,10 @@ var currentYear = new Date().getFullYear();
 document.getElementById("currentYear").innerHTML = currentYear;
 
 // Alert //
-function myFunction() {
-    alert("Does this work?");
-}
+
+const btnAlert = document.getElementById('btn-alert');
+
+btnAlert.addEventListener('click', function() {
+    alert('Welcome to this page');
+});
+
