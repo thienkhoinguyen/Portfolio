@@ -180,6 +180,7 @@ div.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 #btn-alert {
@@ -198,4 +199,33 @@ div.container {
 
 #btn-alert:hover {
   background: #1D1D1D;
+}
+
+#btn-counter {
+  font-size: 24px;
+  font-weight: 200;
+  text-decoration: none;
+  position: relative;
+  border: 0px solid #1D1D1D;
+  color: #fff;
+  background: #2987d4;
+  padding: 14px 40px;
+  border-radius: 42px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#txt-counter {
+  font-size: 24px;
+  font-weight: 200;
+  text-decoration: none;
+  position: relative;
+  border: 0px solid #1D1D1D;
+  color: #fff;
+  background:#1D1D1D;
+  padding: 14px 40px;
+  border-radius: 42px;
+  cursor: pointer;
+  transition: background 0.3s;
+  padding: 10px 20px;
 }
