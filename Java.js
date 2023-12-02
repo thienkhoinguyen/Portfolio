@@ -10,3 +10,17 @@ btnAlert.addEventListener('click', function() {
     alert('Welcome to this page');
 });
 
+// Hover //
+
+const btnHover= document.getElementById('btn-alert');
+
+const handleMouseOver = () => {
+    btnHover.innerText = 'Hello';
+};
+
+const handleMouseLeave = () => {
+    btnHover.innerText = 'Click me';
+};
+
+btnHover.addEventListener('mouseover', handleMouseOver);
+btnHover.addEventListener('mouseleave', handleMouseLeave);
