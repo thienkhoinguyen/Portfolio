@@ -243,6 +243,10 @@ div.container {
     font-size: 30px;
     line-height: 50px;
   }
+  h2{
+    font-size: 22px;
+    line-height: 50px;
+  }
   h3{
     font-size: 12px;
     line-height: 50px;
@@ -261,5 +265,8 @@ div.container {
   }
   a{
     font-size: 14px;
+  }
+  .logo {
+    font-size: 1.5rem;
   }
 }
