@@ -252,16 +252,16 @@ div.container {
     line-height: 50px;
   }
   P{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   h5{
-    font-size: 12px;
+    font-size: 16px;
   }
   th{
-    font-size: 10px;
+    font-size: 12px;
   }
-  td{font-size: 10px;
+  td{font-size: 12px;
   }
   a{
     font-size: 14px;
@@ -269,4 +269,23 @@ div.container {
   .logo {
     font-size: 1.5rem;
   }
+
+  #btn-alert {
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+  }
+
+  #btn-counter {
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+  }
+
+  #txt-counter {
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+  }
+
 }
