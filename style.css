@@ -236,3 +236,30 @@ div.container {
 .odd {
   color: white;
 }
+
+/* MEDIA BREAK POINTS */
+@media (max-width: 600px) {
+  h1{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  h3{
+    font-size: 12px;
+    line-height: 50px;
+  }
+  P{
+    font-size: 12px;
+  }
+
+  h5{
+    font-size: 12px;
+  }
+  th{
+    font-size: 10px;
+  }
+  td{font-size: 10px;
+  }
+  a{
+    font-size: 14px;
+  }
+}
