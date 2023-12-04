@@ -238,7 +238,7 @@ div.container {
 }
 
 /* MEDIA BREAK POINTS */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h1{
     font-size: 30px;
     line-height: 50px;
@@ -249,14 +249,13 @@ div.container {
   }
   h3{
     font-size: 12px;
-    line-height: 50px;
   }
   P{
     font-size: 14px;
   }
 
   h5{
-    font-size: 16px;
+    font-size: 10px;
   }
   th{
     font-size: 12px;
@@ -264,7 +263,8 @@ div.container {
   td{font-size: 12px;
   }
   a{
-    font-size: 14px;
+    font-size: 16px;
+
   }
   .logo {
     font-size: 1.5rem;
@@ -280,11 +280,11 @@ div.container {
     font-size: 12px;
     font-weight: 200;
     position: relative;
+    content:center
   }
 
   #txt-counter {
     font-size: 12px;
-    font-weight: 200;
     position: relative;
   }
 

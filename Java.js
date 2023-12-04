@@ -7,7 +7,7 @@ document.getElementById("currentYear").innerHTML = currentYear;
 const btnAlert = document.getElementById('btn-alert');
 
 btnAlert.addEventListener('click', function() {
-    alert('Welcome to this page');
+    alert('You caught a fish!');
 });
 
 // Hover //
@@ -15,7 +15,7 @@ btnAlert.addEventListener('click', function() {
 const btnHover= document.getElementById('btn-alert');
 
 const handleMouseOver = () => {
-    btnHover.innerText = 'Hello';
+    btnHover.innerText = 'Click me';
 };
 
 const handleMouseLeave = () => {
