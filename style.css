@@ -197,6 +197,10 @@ div.container {
   border-radius: 42px;
 }
 
+#btn-alert:hover {
+  background: #1D1D1D;
+}
+
 #btn-counter {
   background: #2987d4;
   color: white;

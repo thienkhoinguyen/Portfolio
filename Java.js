@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnHover = document.getElementById('btn-alert');
   
     const handleMouseOver = () => {
-        btnHover.innerText = 'Click me';
+        btnHover.innerText = 'Hello';
     };
   
     const handleMouseLeave = () => {
